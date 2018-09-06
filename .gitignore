@@ -1,0 +1,12 @@
+/.mozilla
+/.cache
+/.bash_history
+/.wget-hsts
+dead.letter
+/.rnd
+/.dbus
+/.bash_logout
+/.local
+/.config/pulse
+/.esd_auth
+.viminfo
