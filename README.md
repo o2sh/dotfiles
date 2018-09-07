@@ -17,6 +17,7 @@
 
 ## Post-Install
 
+* localectl set-keymap fr
 * useradd -m -g wheel o2sh
 * passwd o2sh
 * vi /etc/sudoers (uncomment %wheel ALL=(ALL) NOPASSWD: ALL)
