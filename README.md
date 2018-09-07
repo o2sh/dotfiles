@@ -17,10 +17,10 @@
 
 ## Post-Install
 
-* localectl set-keymap fr
+* add KEYMAP=fr to /etc/vconsole.conf
 * useradd -m -g wheel o2sh
 * passwd o2sh
-* vi /etc/sudoers (uncomment %wheel ALL=(ALL) NOPASSWD: ALL)
+* vi /etc/sudoers (uncomment %wheel ALL=(ALL) NOPASSWD: ALL) visudo
 * pacman -S cpupower
 * systemctl enable cpupower.service
 * pacman -S mesa-dri xf86-video-intel bumblebee nvidia
