@@ -12,3 +12,5 @@ dead.letter
 .viminfo
 .gitconfig
 /dev
+/.python_history
+/.Xauthority
