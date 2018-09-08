@@ -10,3 +10,5 @@ dead.letter
 /.config/pulse
 /.esd_auth
 .viminfo
+.gitconfig
+/dev
