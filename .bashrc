@@ -10,4 +10,4 @@ PS1='[\u@\h \W]\$ '
 
 # Some aliases
 alias vi="vim"
-alias ll="ls -l"
+alias ll="ls --color=auto -al"
