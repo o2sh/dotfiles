@@ -10,7 +10,7 @@ dead.letter
 /.config/pulse
 /.esd_auth
 .viminfo
-.gitconfig
+/.gitconfig
 /dev
 /.python_history
 /.Xauthority
