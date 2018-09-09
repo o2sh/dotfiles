@@ -14,3 +14,9 @@ dead.letter
 /dev
 /.python_history
 /.Xauthority
+/Downloads
+/.config/transmission-daemon
+.pki
+.config/chromium/
+.config/dconf/
+.config/htop/
