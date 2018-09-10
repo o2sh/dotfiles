@@ -8,6 +8,11 @@ interval=once
 signal=1
 # use 'pkill -RTMIN+1 i3blocks' after changing the volume
 
+[battery]
+label=Bat:
+command=cat /sys/class/power_supply/BAT1/capacity
+interval=5
+
 [time]
 command=date '+%D %T'
 interval=5
