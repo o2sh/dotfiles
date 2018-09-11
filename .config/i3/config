@@ -149,13 +149,26 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 bar {
-	font pango:mono 11
+    height 25
+	tray_output primary
+	position bottom
+	font pango:Convergence FontAwesome, Icons 12
 	status_command i3blocks
-	position top
-	mode dock
-	modifier None
-}
+	colors {
 
+#	setting			outline	bg	text
+
+        statusline		#999999
+        background		#131D24
+
+        focused_workspace	#232D34	#232D34	#93AE03
+        active_workspace	#232D34	#232D34	#999999
+        inactive_workspace	#131D24	#131D24	#999999
+        urgent_workspace	#999999	#999999	#B33A3A
+
+
+	}
+}
 # #---Extra XF86 Keys---# #
 bindsym XF86MonBrightnessDown	exec --no-startup-id xbacklight -dec 15
 bindsym XF86MonBrightnessUp	exec --no-startup-id xbacklight -inc 15

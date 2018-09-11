@@ -28,3 +28,10 @@
 * systemctl start bumblebeed.service
 * pacman -S xorg-server xorg-xinit
 * pacman -S firefox
+
+## Useful
+
+* lscpu | grep Mhz
+* fc-list | grep -i awesome
+* fc-cache -f -v
+* https://fontawesome.com/cheatsheet?from=io
