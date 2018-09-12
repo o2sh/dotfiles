@@ -2,45 +2,45 @@
 font = inconsolata 12
 browser = firefox
 
-# Monokai color scheme (https://github.com/NearHuscarl/termite-color-switcher/blob/master/color/monokai)
+# Google color scheme (https://github.com/NearHuscarl/termite-color-switcher/blob/master/color/google)
 
 [colors]
 
 # special
-foreground        = #f8f8f2
-foreground_bold   = #f8f8f2
-cursor            = #f8f8f2
-cursor_foreground = #272822
-background        = rgba(39, 40, 34, 0.8)
+foreground        = #c5c8c6
+foreground_bold   = #c5c8c6
+cursor            = #c5c8c6
+cursor_foreground = #1d1f21
+background        = rgba(29, 31, 33, 0.8)
 
 # black
-color0  = #272822
-color8  = #75715e
+color0  = #1d1f21
+color8  = #969896
 
 # red
-color1  = #f92672
-color9  = #f92672
+color1  = #cc342b
+color9  = #cc342b
 
 # green
-color2  = #a6e22e
-color10 = #a6e22e
+color2  = #198844
+color10 = #198844
 
 # yellow
-color3  = #f4bf75
-color11 = #f4bf75
+color3  = #fba922
+color11 = #fba922
 
 # blue
-color4  = #66d9ef
-color12 = #66d9ef
+color4  = #3971ed
+color12 = #3971ed
 
 # magenta
-color5  = #ae81ff
-color13 = #ae81ff
+color5  = #a36ac7
+color13 = #a36ac7
 
 # cyan
-color6  = #a1efe4
-color14 = #a1efe4
+color6  = #3971ed
+color14 = #3971ed
 
 # white
-color7  = #f8f8f2
-color15 = #f9f8f5
+color7  = #c5c8c6
+color15 = #ffffff

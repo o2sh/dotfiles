@@ -13,6 +13,18 @@ color=#9fbc00
 
 [separator]
 
+[disk_label]
+full_text=
+separator=false
+color=#9fbc00
+
+[disk]
+command=df -h | awk '{if($6=="/home") print $4}'
+interval=10
+separator=false
+
+[separator]
+
 [volume_label]
 full_text=
 separator=false
