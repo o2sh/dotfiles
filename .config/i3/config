@@ -2,6 +2,8 @@ set $mod Mod4
 
 font pango:monospace 8
 
+
+bindsym $mod+b exec --no-startup-id xrandr --output DP2-2 --auto --left-of eDP1
 exec --no-startup-id nm-applet
 exec_always --no-startup-id xinput --disable "SynPS/2 Synaptics TouchPad"
 exec_always --no-startup-id feh --bg-scale ~/.config/wall.png
