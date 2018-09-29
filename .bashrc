@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-PS1='\[[\e[31m\u\e[39m@\h \e[1;34m\W\e[0;39m]\]\$ '
+PS1='\[\033[01;31m\]\u@\h\[\033[01;34m\] $PWD \[\033[00m\]$ '
 # Some aliases
 alias vi="vim"
 alias ll="ls --color=auto -al"
