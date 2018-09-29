@@ -21,3 +21,9 @@ dead.letter
 .config/dconf/
 .config/htop/
 /Programs
+/.abuse
+/.cargo
+/.config/vlc/
+/.parallelrealities
+/.ssh
+/.config/QtProject.conf

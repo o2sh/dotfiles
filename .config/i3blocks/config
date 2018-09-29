@@ -56,7 +56,7 @@ color=#0a67ff
 
 [cpu_temp]
 command=echo "$(sensors coretemp-isa-0000 | awk '/Core 0/ {print $3}')"
-interval=10
+interval=1
 separator=false
 
 [separator]
