@@ -10,7 +10,7 @@ exec_always --no-startup-id feh --bg-scale ~/.config/wall.png
 exec_always --no-startup-id compton
 for_window [class="^.*"] border pixel 2 
 gaps inner 15
-gaps outer 5 
+gaps outer 5
 bindsym $mod+n exec --no-startup-id $BROWSER 
 
 # Use Mouse+$mod to drag floating windows to their wanted position

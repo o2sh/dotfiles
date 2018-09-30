@@ -1,5 +1,5 @@
 [options]
-font = inconsolata 12
+font = inconsolata 15
 browser = firefox
 
 # Google color scheme (https://github.com/NearHuscarl/termite-color-switcher/blob/master/color/google)
