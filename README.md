@@ -35,3 +35,5 @@
 * fc-list | grep -i awesome
 * fc-cache -f -v
 * https://fontawesome.com/cheatsheet?from=io
+* Server = https://mirror.thekinrar.fr/archlinux/$repo/os/$arch
+
