@@ -5,4 +5,5 @@
 	{ "keys": ["alt+down"], "command": "swap_line_down" },
 	{ "keys": ["alt+left"], "command": "jump_back" },
 	{ "keys": ["alt+right"], "command": "jump_forward" },
+	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
 ]
