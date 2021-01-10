@@ -37,3 +37,14 @@
 * https://fontawesome.com/cheatsheet?from=io
 * Server = https://mirror.thekinrar.fr/archlinux/$repo/os/$arch
 
+## Debian
+
+* untar source and cd to project folder
+* cargo vendor debian/vendor
+* cd debian && tar zcf vendor.tar.gz vendor && rm -Rf vendor && cd ..
+* update changelog
+* dpkg-buildpackage -S -us -uc
+* cd ..
+* debsign monfichier.changes
+* dput ppa:monpppa monfichier.changes
+
