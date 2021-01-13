@@ -39,12 +39,13 @@
 
 ## Debian
 
-* untar source and cd to project folder
+* tar xzvf onefetch-2.9.0.tar.gz
+* cd onefetch-2.9.0/ && rm -f Makefile
 * cargo vendor debian/vendor
 * cd debian && tar zcf vendor.tar.gz vendor && rm -Rf vendor && cd ..
-* update changelog
+* update changelog and files
 * dpkg-buildpackage -S -us -uc
 * cd ..
-* debsign monfichier.changes
-* dput ppa:monpppa monfichier.changes
+* debsign onefetch_2.9.0-1_source.changes
+* dput -f ppa:o2sh/onefetch onefetch_2.9.0-1_source.changes
 

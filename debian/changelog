@@ -1,5 +1,5 @@
-onefetch (2.8.0-beaver-amd64) bionic; urgency=medium
+onefetch (2.9.0-1) groovy; urgency=medium
 
-  * Initial Release.
+  * 2.9.0 release.
 
- -- Ossama Hjaji <ossama-hjaji@live.fr>  Sat, 09 Jan 2021 00:56:45 +0100
+ -- Ossama Hjaji <ossama-hjaji@live.fr>  Sat, 13 Jan 2021 22:15:00 +0100
