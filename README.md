@@ -39,7 +39,7 @@
 
 ## Debian
 
-* untar source and cd to project folder
+* untar source with `tar xzvf` and cd to project folder
 * cargo vendor debian/vendor
 * cd debian && tar zcf vendor.tar.gz vendor && rm -Rf vendor && cd ..
 * update changelog
