@@ -39,6 +39,7 @@
 
 ## Debian
 
+* wget https://github.com/o2sh/onefetch/archive/v2.9.1.tar.gz
 * tar xzvf onefetch-2.9.0.tar.gz
 * cd onefetch-2.9.0/ && rm -f Makefile
 * cargo vendor debian/vendor
