@@ -45,6 +45,7 @@
 * cargo vendor debian/vendor
 * cd debian && tar zcf vendor.tar.gz vendor && rm -Rf vendor && cd ..
 * update changelog and files
+* cd ..
 * dpkg-buildpackage -S -us -uc
 * cd ..
 * debsign onefetch_2.9.0-1_source.changes
