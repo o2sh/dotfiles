@@ -1,2 +1,2 @@
 #https://jonasjacek.github.io/colors/
-PROMPT='%B%F{168}%n%f %F{81}%~%f%b '
+ROMPT='         %B%F{81}%n%f %F{217}%~%f%b '
