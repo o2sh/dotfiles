@@ -9,4 +9,4 @@ Homepage: https://github.com/o2sh/onefetch
 Package: onefetch
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: A command-line Git information tool
+Description: Command-line Git information tool
