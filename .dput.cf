@@ -1,0 +1,5 @@
+[mentors]
+fqdn = mentors.debian.net
+incoming = /upload
+method = scp
+allow_unsigned_uploads = 0
