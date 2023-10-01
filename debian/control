@@ -10,3 +10,5 @@ Package: onefetch
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Command-line Git information tool
+ It displays project information and code statistics
+ for a local Git repository directly to your terminal.

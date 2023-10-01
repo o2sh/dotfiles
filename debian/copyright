@@ -1,17 +1,9 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: onefetch
-Upstream-Contact: <preferred name and address to reach the upstream project>
-Source: <url://example.com>
+Source: https://github.com/o2sh/onefetch
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
-License: MIT
-
-Files: debian/*
-Copyright: 2021 o2sh <ossama-hjaji@live.fr>
-License: MIT
-
+Copyright: 2023 Ossama Hjaji <ossama-hjaji@live.fr>
 License: MIT
  Permission is hereby granted, free of charge, to any person obtaining a
  copy of this software and associated documentation files (the "Software"),
