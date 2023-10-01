@@ -53,6 +53,7 @@
 
 ## Debian (mentors)
 
+- make sure you have the .dput.cf file in the ppa/ folder
 - tar czf onefetch_2.18.1.orig.tar.gz onefetch-2.18.1/
 - update changelog -> version = stable
 - cd onefetch-2.18.1
