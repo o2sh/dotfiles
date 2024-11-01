@@ -1,9 +1,0 @@
-[
-	{ "keys": ["ctrl+l"], "command": "cut" },
-	{ "keys": ["ctrl+shift+l"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
-	{ "keys": ["alt+up"], "command": "swap_line_up" },
-	{ "keys": ["alt+down"], "command": "swap_line_down" },
-	{ "keys": ["alt+left"], "command": "jump_back" },
-	{ "keys": ["alt+right"], "command": "jump_forward" },
-	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
-]
